@@ -10,15 +10,6 @@ class LocationDetailsPage extends StatelessWidget {
   LocationDetailsPage({required this.location});
 
 
-
-  /*void customLaunch(command) async{
-    if(await canLaunch(command)){
-      await launch(command);
-    }else{
-      print('Error');
-    }
-  }*/
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
